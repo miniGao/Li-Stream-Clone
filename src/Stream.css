@@ -1,0 +1,53 @@
+.stream {
+    height: 50%;
+    display: flex;
+    place-items: center;
+}
+
+.stream-container {
+    display: flex;
+}
+
+.stream-status {
+    width: 400px;
+    height: 295px;
+    background-color: #1f1f23;
+    margin-left: 30px;
+}
+
+.stream-status-container {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 245px;
+}
+
+.stream-status-indicator {
+    background-color: white;
+    color: #1f1f23;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 5px 10px;
+}
+
+.stream-status-container-top {
+    flex: 1;
+}
+
+.stream-status-info {
+    display: flex;
+    align-items: center;
+}
+
+.stream-status-info > i {
+    margin-right: 20px;
+}
+
+.stream-status > div > div > h2 {
+    font-size: 35px;
+}
+
+.stream-video-embed {
+    height: 295px;
+    width: 500px;
+}
